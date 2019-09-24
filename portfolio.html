@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio (Bootstrap)</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="sticky-footer.css"> -->
+    <link rel="stylesheet" type="text/css" href="extra.css">
 </head>
 
 <body background="../../week-1/Basic-Repository/assets/images/scribble_light/scribble_light_@2X.png">
@@ -43,9 +44,9 @@
             <div class="col-sm-1">
             </div>
             <!-- content column -->
-            <div class="col-sm-10">
+            <div class="col-sm-10" id="mainContent">
                 <!-- sub-row: content header -->
-                <div class="row">
+                <div class="row" id="header">
                     <div class="col-sm-12">
                         <h1>Portfolio</h1>
                     </div>
@@ -55,23 +56,33 @@
                 <!-- sub-row: start content  -->
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="../../week-1/Basic-Repository/assets/images/soccer.jpeg" alt="soccer"
-                            class="img-thumbnail" />
-                        Hangman
-                        <img src="../../week-1/Basic-Repository/assets/images/cricket.jpeg" alt="cricket"
-                            class="img-thumbnail" />
-                        Trivia Game
-                        <img src="../../week-1/Basic-Repository/assets/images/food.jpeg" alt="food"
-                            class="img-thumbnail" />
-                        Rock Paper Scissors
+                        <div class="portfolio">
+                            <img src="../../week-1/Basic-Repository/assets/images/soccer.jpeg" alt="soccer"
+                                class="img-thumbnail" />
+                            <div class="imageText">Hangman</div>
+                        </div>
+                        <div class="portfolio">
+                            <img src="../../week-1/Basic-Repository/assets/images/cricket.jpeg" alt="cricket"
+                                class="img-thumbnail" />
+                            <div class="imageText">Trivia Game</div>
+                        </div>
+                        <div class="portfolio">
+                            <img src="../../week-1/Basic-Repository/assets/images/food.jpeg" alt="food"
+                                class="img-thumbnail" />
+                            <div class="imageText">Rock Paper Scissors</div>
+                        </div>
                     </div>
                     <div class="col-sm-6">
-                        <img src="../../week-1/Basic-Repository/assets/images/design.jpeg" alt="design"
-                            class="img-thumbnail" />
-                        RPG Game
-                        <img src="../../week-1/Basic-Repository/assets/images/giraffe.jpeg" alt="giraffe"
-                            class="img-thumbnail" />
-                        Rutgers Info Widget
+                        <div class="portfolio">
+                            <img src="../../week-1/Basic-Repository/assets/images/design.jpeg" alt="design"
+                                class="img-thumbnail" />
+                            <div class="imageText">RPG Game</div>
+                        </div>
+                        <div class="portfolio">
+                            <img src="../../week-1/Basic-Repository/assets/images/giraffe.jpeg" alt="giraffe"
+                                class="img-thumbnail" />
+                            <div class="imageText">Rutgers Info Widget</div>
+                        </div>
                     </div>
                 </div>
                 <!-- end content  -->
@@ -81,7 +92,7 @@
             </div>
         </div>
     </div>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
