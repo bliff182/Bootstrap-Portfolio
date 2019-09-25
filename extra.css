@@ -1,5 +1,5 @@
 body {
-  background: url(images/scribble_light/scribble_light_@2X.png);
+  background: url("images/scribble_light/scribble_light_@2X.png"); 
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
