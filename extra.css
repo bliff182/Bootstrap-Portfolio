@@ -26,10 +26,17 @@ padding: 10px;
   /* border: 3px solid #ccc; */
 }
 
-.portfolio {
-  padding: 10px;
+.portfolioImage {
+  /* position: relative; */
+  margin-bottom: 30px;
 }
 
 .imageText {
+  color: #fff;
+  background: #4aaaa5;
+  text-align: center;
   padding: 10px;
+  max-width: 400px;
+  /* position: absolute; */
+  /* bottom: 20px; */
 }
