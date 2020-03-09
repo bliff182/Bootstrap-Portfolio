@@ -2,4 +2,4 @@
 
 ### Overview
 
-This is an update to my Basic-Repository portfolio. This portfolio is built using the Bootstrap CSS Framework and its related components.
+This is an update to my Basic-Repository portfolio. This portfolio has been recreated using the Bootstrap CSS Framework and its related components. As a result, the site's layout is fully responsive.
