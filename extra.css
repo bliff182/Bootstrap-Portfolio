@@ -1,13 +1,14 @@
 body {
-  background: url("images/scribble_light/scribble_light_@2X.png"); 
+  background: url("images/scribble_light/scribble_light_@2X.png");
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  margin-bottom: 60px; /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /* Margin bottom by footer height */
 }
 
 #header {
-font-family: Georgia, Times, "Times New Roman", serif;
-border-bottom: 1px solid #ccc;
-padding: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
 }
 
 #mainContent {
@@ -53,6 +54,7 @@ html {
   bottom: 0px;
   width: 100%;
   /* height: 60px; Set the fixed height of the footer here */
-  line-height: 30px; /* Vertically center the text there */
+  line-height: 30px;
+  /* Vertically center the text there */
   background-color: #343a40;
 }
